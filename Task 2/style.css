@@ -1,0 +1,44 @@
+#colorButton {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+ #colorChange{
+  text-align: center;
+ }
+
+
+  /* Task 2-3 css */
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+  }
+
+  #calculator {
+    text-align: center;
+    padding: 40px;
+    margin: 8rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(71, 113, 172);
+  }
+
+  input {
+    width: 100px;
+    margin: 10px;
+    padding: 5px;
+  }
+
+  #add-btn {
+    width: 40px;
+    margin: 10px;
+    padding: 2.5px;
+    cursor: pointer;
+    background-color: rgb(80, 172, 71);
+  }
